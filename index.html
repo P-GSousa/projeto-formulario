@@ -29,7 +29,7 @@
         action="" method="post" enctype="multipart/form-data" -->
         <form>
           <fieldset class="child-info">
-            <legend>Informações</legend>
+            <legend>Informações da criança</legend>
 
             <div class="input-wrapper">
               <label for="fullname">Nome completo</label>
@@ -42,17 +42,20 @@
             </div>
 
             <div class="select-wrapper">
-              <label for="gender"></label>
-              <selct id="gender" name="gender">
+              <label for="gender">Sexo</label>
+              <select id="gender" name="gender">
                 <option value="female">Feminino</option>
                 <option value="male">Masculino</option>
                 <option value="na">Prefiro não informar</option>
-              </selct>
+              </select>
             </div>
 
             <div class="textarea-wrapper">
               <label for="medical-info">Informações médicas</label>
-              <textarea name="medical-info" id="medical-info" cols="30" rows="10" placeholder="A criança possui alguma condição médica que a escola deve estar ciente (Se sim, especifique)"></textarea>
+              <textarea name="medical-info" id="medical-info" 
+              cols="30" rows="10" 
+              placeholder="A criança possui alguma condição médica que a escola deve estar ciente (Se sim, especifique)"
+              ></textarea>
             </div>
 
             <div class="droparea-wrapper">
